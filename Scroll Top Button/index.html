@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Scroll Top Button</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+      $(document).ready(function(){
+      $(window).scroll(function(){
+        if($(window).scrollTop() > 300){
+          $('i').css({
+            "opacity":"1", "pointer-events":"auto"
+          });
+        }else{
+          $('i').css({
+            "opacity":"0", "pointer-events":"none"
+          });
+        }
+      });
+      $('i').click(function(){
+        $('html').animate({scrollTop:0}, 500);
+      });
+    });
+    </script>
+
+  </head>
+  <body>
+    <i class="fas fa-chevron-up"></i>
+    <div class="sec1"></div>
+    <h1>Scroll Top Button</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, ex est blanditiis natus dignissimos cumque fuga. Voluptate inventore asperiores mollitia necessitatibus saepe aperiam dolores quibusdam, culpa, exercitationem eius in, optio nobis neque odit reprehenderit pariatur. Minus dolor omnis, neque asperiores culpa aspernatur ratione obcaecati odio a, necessitatibus sed nobis, eaque. Fuga aliquid ea, asperiores excepturi pariatur ex, sed eaque atque, ab optio dolor quidem cumque! Fugit, iure adipisci distinctio, nemo saepe nesciunt provident odit vel minus autem earum cum corporis beatae omnis ipsam explicabo deleniti repellendus, facilis aliquid consequuntur nobis perferendis dolorum repudiandae voluptates. Natus quod ut ullam, veniam ipsam reprehenderit odio enim maxime magnam tempore eveniet, quia assumenda officiis tempora ratione debitis nihil eaque mollitia aut eos inventore. Maxime, nam doloribus perferendis laboriosam aspernatur quis fugiat quas eveniet vitae nostrum eligendi dolores inventore, porro, perspiciatis, culpa atque recusandae. Commodi alias esse quaerat facilis perferendis consequatur consectetur asperiores sequi omnis.</p>
+
+    <div class="sec2"></div>
+    <h1>Scroll Top Button</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores dolor a cumque facilis, quis ad perferendis nisi dolores, assumenda nemo illum, sint saepe quidem? Laboriosam aperiam molestiae nihil, magnam aliquam fugit libero autem ratione recusandae natus quisquam! Sunt cumque a error, voluptatem nostrum. Explicabo pariatur laboriosam temporibus optio accusantium quo culpa non praesentium perferendis assumenda ut neque quos velit odio cupiditate eum vel saepe, qui, necessitatibus deleniti labore accusamus est expedita similique. Sapiente mollitia officia eaque, sequi qui, architecto vitae quaerat quos veniam reiciendis quisquam quo itaque dolores rerum incidunt animi ducimus repudiandae accusamus, culpa eum repellendus magni aliquid! A, facere, doloremque? Incidunt et eius at, repellat, eum esse laboriosam eaque nemo ex, soluta odio. Fuga facere mollitia nobis, optio aspernatur maxime expedita sapiente ea praesentium iure ipsam ullam officia maiores voluptatem nesciunt, nisi eligendi ipsa ad reprehenderit rem dolore quis voluptas nam nostrum. Voluptas obcaecati sint quae at, tempore!</p>
+
+  </body>
+</html
